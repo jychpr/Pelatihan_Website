@@ -1,0 +1,66 @@
+Head : Judul dan metadata
+Body : konten web
+Footer : untuk Javascript
+
+css -> style dari html
+
+Heading (Judul)
+<h1> terbesar
+<h6> terkecil
+
+Text Formatting
+<b> bold text
+<strong> important text
+<i> italic text
+<em> emphasized text
+<mark> marked text
+<small> small text
+<del> garis tengah
+<ins> underline
+<sub> subscript
+<sup> superscript
+
+command (hotkey ctrl+/)
+untuk perintah atau petunjuk, sama seperti // di C
+
+Input gambar
+<img src="nama_file" style="width:___"; height="__"; dst>
+img src yang bagian utama, variabel hanya tambahan
+variabel pakai persentase ex: width="100%" untuk memaksimalkan gambar ke ukuran layar
+
+Table (Membuat Tabel)
+<tr> table row
+<th> table header
+<td> tabel define
+buat style tabel, diinput di <head> ex:
+<style>
+        table,th,td{
+            border:2px black solid;
+            border-collapse: collapse;
+            background-color: pink;
+            border-color: yellow;
+        }
+    </style>
+
+List (Daftar urutan)
+Ordered List <ol>
+1. disc		marked bullet (default)
+2. circle	circle
+Unordered list <ul>
+1. square
+2. none
+
+Margin dan Padding
+Content isi
+Margin memberi batas
+Padding mendekati
+
+Buat Link
+<a href="link_website_pakai_www">Nama_Website</a>
+
+TUGAS
+buat web
+-foto
+-Nama, Nim
+-Hobby list
+-Jadwal Kuliah table
